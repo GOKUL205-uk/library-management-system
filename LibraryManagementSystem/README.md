@@ -80,21 +80,3 @@ at any time to start fresh.
 3. Choose `6` to issue that book to that member
 4. Choose `8` to see it listed as currently issued
 5. Choose `7` to return it
-
-## Ideas to extend it further
-
-- Add due dates and fine calculation for late returns
-- Swap the CSV file layer for JDBC + a real database (great "v2" story for an interview)
-- Add a `Librarian` login/authentication layer
-- Wrap it in a JavaFX or Swing GUI
-- Add unit tests with JUnit 5 for `LibraryService`
-
-## Suggested resume bullet points
-
-- Built a Java console application implementing full CRUD operations for a library
-  system, using HashMap-based in-memory storage with custom CSV file persistence.
-- Designed a custom checked-exception hierarchy to handle domain errors
-  (unavailable books, duplicate records, missing members) with clear, actionable messages.
-- Applied Java Streams and Comparators to implement search, filtering, and sorting
-  features across a 500+ line, multi-package codebase following a layered
-  (model/service/util) architecture.
